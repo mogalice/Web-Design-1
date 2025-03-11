@@ -18,6 +18,7 @@ body {
 header {
     height: 118px;
     text-align: center;
+    
        
 }
 
@@ -42,6 +43,7 @@ nav a {
 .Front {    
     background: rgba(0, 0, 0, 0.4);
     padding: 120px;
+    width: 100%
 }
 
 h1 {
@@ -64,7 +66,7 @@ a {
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.377);
+    background: rgba(0, 0, 0, 0.82);
     padding: 20px;
     position: absolute;
     bottom: 0;
