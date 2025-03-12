@@ -44,7 +44,7 @@ nav a:hover {
     text-align: center;
     padding: 40px 20px;
     margin-top: 20px;
-    background: rgba(252, 244, 250, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -102,7 +102,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: #ffffff;
     padding: 40px;
     text-align: center;
 }
