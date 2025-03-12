@@ -4,57 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="attractions.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Explore Banff</div>
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="history.html">HISTORY</a>
-            <a href="attractions.html">ATTRACTIONS</a>
-            <a href="shire.html">THE SHIRE</a>
-        </nav>
-    </header>
+<h2>Responsive "Side-by-Side" Images</h2>
+<p>How to create side-by-side images with the CSS float property. On screens that are 500px wide or less, the images will stack on top of each other instead of next to each other:</p>
+<p>Resize the browser window to see the effect.</p>
 
-    <section id="services" class="container">
-        <div class = "service">
-            <img src="./img/black white railway.jpg" alt="">
-            <h1>RAILWAY</h1>
-            <p> Old railway beside scotstown</p>
-        </div>
-        <div class = "service">
-            <img src="./img/black white railway.jpg" alt="">
-            <h1>CASTLE</h1>
-            <p> Old railway beside scotstown</p>
-        </div>
-        <div class = "service">
-            <img src="./img/black white railway.jpg" alt="">
-            <h1>FISHING</h1>
-            <p> Old railway beside scotstown</p>
-        </div>
-    </section>
-    
-    <section id="services" class="container">
-       <div class ="about-content">
-        <h1> CLOCK STORY </h1>
-        <p> once upon a time there was a clock situated above the gallows in banff where the local robin hood was to be hung. Macduffers did not want this to happen therefore the banffers changed the clocks forward to prevent them rioting and the guy was hung </p>
+<div class="row">
+  <div class="column">
+    <img src="img/black white railway.jpg" alt="Snow" style="width:100%">
+    <h1>RAILWAY</h1>
+    <p> Old railway running from banff to macduff</p>
+  </div>
+  <div class="column">
+    <img src="img/snowy castle.jpg" alt="Forest" style="width:100%">
+    <h1>CASTLE</h1>
+    <p>Banff castle centered in the heart of banff</p>
+  </div>
+  <div class="column">
+    <img src="img/watersedge.jpeg" alt="Mountains" style="width:100%">
+    <h1>GOLF</h1>
+    <p>Watersedge shore right next to links beach</p>
+  </div>
+</div>
+
+<div class="row">
+    <div class="column">
+      <img src="img/black white railway.jpg" alt="Snow" style="width:100%">
+      <h1>SHOP</h1>
+      <p> Old railway running from banff to macduff</p>
     </div>
-    <div class="about-img">
-        <img src="./img/black white railway.jpg" alt="">
+    <div class="column">
+      <img src="img/snowy castle.jpg" alt="Forest" style="width:100%">
+      <h1>LINKS</h1>
+      <p>Banff castle centered in the heart of banff</p>
     </div>
-    </section>
+    <div class="column">
+      <img src="img/watersedge.jpeg" alt="Mountains" style="width:100%">
+      <h1>DUFF HOUSE</h1>
+      <p>Watersedge shore right next to links beach</p>
+    </div>
+  </div>
 
-    <section id="Duffhouse">
-        <div class="duff-house-content">
-            <h1>DUFF HOUSE</h1>
-            <p>During WWII duff house was bombed taking with it it's 2 wings which have not been restored, on the grounds also lkies an ice house and moselleum
-            </p>
-        </div>
-    </section>
-
-    <footer>
-        <p> 2025 Banff Tourism | Scotland</p>
-    </footer>
-    
 </body>
 </html>
