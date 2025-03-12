@@ -1,40 +1,25 @@
+/* General Styles */
 * {
     box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 40px;
-    img{
-        height: 500px;
-        width: 500px;
-    }
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
-  }
-  header {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+/* Header Styles */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
     background: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .logo {
@@ -54,19 +39,17 @@ nav a:hover {
     color: #FFD700;
 }
 
-.Title {
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.219);
-    padding: 20px;
-    
+/* Title Section */
+.title {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 30px;
-    font-weight: bold;
+h1, h2 {
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
@@ -75,12 +58,62 @@ p {
     margin-bottom: 20px;
 }
 
-.Duff {
-    img {
-        float:right;
-    }
-    text-align: center;
-    padding: 30px;
-    margin-top: 20px;
+/* Grid Layout for Attractions */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
 
+.column {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.column:hover {
+    transform: translateY(-5px);
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .column {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+/* Duff House Section */
+.duff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .duff {
+        flex-direction: column;
+    }
+    .duff img {
+        margin-bottom: 20px;
+    }
 }
