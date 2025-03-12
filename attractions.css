@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #ffffffc1;
     color: #333;
     
 }
@@ -44,7 +44,7 @@ nav a:hover {
     text-align: center;
     padding: 40px 20px;
     margin-top: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(252, 244, 250, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -70,7 +70,7 @@ p {
 .column {
     flex: 1 1 calc(33.333% - 40px);
     max-width: calc(33.333% - 40px);
-    background: white;
+    background: rgba(255, 255, 255, 0.598);
     padding: 20px;
     text-align: center;
     border-radius: 8px;
