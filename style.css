@@ -1,3 +1,5 @@
+
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    background: url('img/watersedge.jpeg') no-repeat center center fixed;
+    background: url('images/banff\ arial.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -43,39 +45,46 @@ nav a:hover {
 }
 
 /* Hero Section */
-.hero-image {
-    height: 400px;
-    background: url('img/shire-hero.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-/* Row Layout */
-.row {
+.hero {
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
-}
-
-/* Layout for different rows */
-.row3, .row4, .row5, .row6, .footer {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-}
-
-/* Column Sizes */
-.six {
-    width: 50%;
+    justify-content: center;
     background: rgba(0, 0, 0, 0.4);
     padding: 20px;
 }
 
-.three {
-    width: 25%;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Info Button */
+.info-btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.info-btn:hover {
+    background: #0056b3;
+}
+
+/* Maps Section */
+.maps {
+    padding: 50px 0;
 }
 
 /* Footer */
@@ -83,6 +92,4 @@ footer {
     background: rgba(0, 0, 0, 0.82);
     padding: 20px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
