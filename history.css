@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ffffffc1;
+    background-color: rgba(45, 34, 14, 0.217);
     color: #333;
 }
 
@@ -43,6 +43,7 @@ nav a:hover {
     font-size: 32px;
     font-weight: bold;
     padding: 40px 50px;
+    color: rgba(132, 113, 85, 0.947);
 }
 
 /* News Section */
@@ -67,8 +68,8 @@ nav a:hover {
 .news-text {
     position: absolute;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 15px;
+    background: #ffffff8b;
+    padding: 40px;
     width: 100%;
 }
 
@@ -77,16 +78,6 @@ nav a:hover {
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
-}
-
-.hot-news {
-    background-color: red;
-    color: white;
-}
-
-.top-viewed {
-    background-color: blue;
-    color: white;
 }
 
 .news-side {
@@ -99,7 +90,7 @@ nav a:hover {
 .news-small {
     display: flex;
     gap: 10px;
-    background: white;
+    background: #f5f5f5;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
