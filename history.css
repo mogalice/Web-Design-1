@@ -40,7 +40,6 @@ nav a:hover {
 /* Title */
 .title {
     text-align: center;
-    font-size: 32px;
     font-weight: bold;
     padding: 40px 50px;
     color: rgb(255, 255, 255);
@@ -161,7 +160,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: black;
+    background: rgba(0, 0, 0, 0.603);
     color: white;
     margin-top: 20px;
 }

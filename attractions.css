@@ -44,8 +44,11 @@ nav a:hover {
     text-align: center;
     padding: 40px 20px;
     margin-top: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(91, 119, 136, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+
 }
 
 h1, h2 {
@@ -116,4 +119,31 @@ p {
     .duff img {
         margin-bottom: 20px;
     }
+}
+
+.contact {
+    text-align: center;
+    padding: 200px;
+    background: url(img/banff\ links\ 2.0) no-repeat center;
+    background-size: cover;
+    color: white
+  
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.642);
+    color: white;
+    margin-top: 20px;
 }
