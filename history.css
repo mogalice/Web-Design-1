@@ -70,10 +70,10 @@ nav a:hover {
 .news-text {
     position: absolute;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.687);
+    background:#2c3628ac;
     padding: 40px;
     width: 100%;
-    color: black
+    color: white;
 }
 
 .tag {
@@ -104,6 +104,17 @@ nav a:hover {
     height: 350px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.quote {
+    text-align: center;
+    font-weight: ;
+    padding: 90px 50px;
+    color: rgb(235, 235, 235);
+    margin-top: 20px;
+    background: #00000094;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 
