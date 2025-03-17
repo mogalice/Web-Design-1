@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore Banff - Attractions</title>
+    <!-- Title of the page that appears in the browser tab -->
+    <title>Banff - Attractions</title>
+    <!-- Link to the external CSS file for styling -->
     <link rel="stylesheet" href="attractions.css">
 </head>
 <body>
     <header>
         <div class="logo">Explore Banff</div>
         <nav>
+            <!-- Navigation links to different pages -->
             <a href="index.html">HOME</a>
             <a href="history.html">HISTORY</a>
             <a href="attractions.html">ATTRACTIONS</a>
         </nav>
     </header>
-
+    <!-- Title section for the Attractions page -->
     <section class="title">
         <h2>ATTRACTIONS</h2>
         <p>Discover Banff's top attractions and historic landmarks.</p>
     </section>
-
+      <!-- Section describing Links Beach -->
     <section class="beach">
         <h2>Links Beach</h2>
         <p> A perfect spot for a BBQ, with golden sands, charming blue pavilions, and a scenic cycle path linking nearby towns</p>
     </section>
-
+    
+    <!-- Grid layout for attraction images and descriptions -->
     <div class="row">
         <div class="column">
             <img src="img/snowy castle.jpg" alt="Banff Castle">
@@ -43,7 +47,7 @@
             <p>A picturesque place to play alongside the river Devron.</p>
         </div>
     </div>
-
+     <!-- 2nd row of attractions -->
     <div class="row">
         <div class="column">
             <img src="img/smiddy.jpg" alt="The Smiddy">
@@ -61,7 +65,7 @@
             <p>An 18th-century folly offering stunning views of Banff and it's coastline, but beware the trek of devil's valley.</p>
         </div>
     </div>
-
+    <!-- 3rd row of attractions -->
     <div class="row">
         <div class="column">
             <img src="img/aquarium diver.jpg" alt="Macduff Marine Aquarium">
@@ -79,21 +83,23 @@
             <p>A beloved shop offering a variety of goods, from souvenirs to household items and international cuisine.</p>
         </div>
     </div>
-
+    
+    <!-- Section about Duff House and its grounds -->
     <section class="duffh">
         <h2>Duff House & Grounds</h2>
         <p>Comprised of the original house-turned-gallery, scenic woods, a mausoleum, and an ice house.</p>
     </section>
     
- 
+    <!-- Plan Your Visit section with Bootstrap dropdown menus -->
     <title>Plan Your Visit</title>
+    <!-- Bootstrap CSS for dropdown styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <div class="container mt-4">
     <h2>Plan Your Visit</h2>
     <p>Discover local amenities and opening times below to plan your day</p>
     
-              <!-- Dropdown for Local Cafés -->
+            <!-- Dropdown for Local Cafés -->
             <div class="dropdown mb-3">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="cafesDropdown" data-bs-toggle="dropdown">
                     Local Cafés
@@ -122,7 +128,7 @@
     </div>
 </div>
 
-<!-- Bootstrap JS -->
+<!-- Bootstrap JS functioning -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <footer>

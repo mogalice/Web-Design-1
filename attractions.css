@@ -1,4 +1,4 @@
-/* General Styles */
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -96,7 +96,7 @@ p {
     margin-bottom: 15px;
 }
 
-/* Responsive Design */
+/* Responsiveness */
 @media screen and (max-width: 768px) {
     .column {
         flex: 1 1 100%;

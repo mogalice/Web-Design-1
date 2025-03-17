@@ -129,7 +129,7 @@ h10 {
 }
 
 
-/* About Us */
+/* large image/ text section */
 .about {
     display: flex;
     justify-content: center;
@@ -150,25 +150,25 @@ h10 {
     border-radius: 8px;
 }
 
-/* Contact Section */
-.contact {
+/* dialect Section */
+.fact {
     text-align: center;
     padding: 50px;
     background: #3f55357b;
     color: white
 }
 
-.contact h2 {
+.fact h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.contact p {
+.fact p {
     max-width: 600px;
     margin: 0 auto 20px;
 }
 
-.contact-btn {
+.fact-btn {
     display: inline-block;
     padding: 12px 24px;
     background: #2c36287b;
